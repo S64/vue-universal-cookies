@@ -1,0 +1,8 @@
+{
+  "name": "nuxt-universal-cookies",
+  "main": "lib/index.js",
+  "dependencies": {
+    "nuxt": "^1.0.0-rc11",
+    "vue-universal-cookies": "file://../vue-universal-cookies"
+  }
+}
