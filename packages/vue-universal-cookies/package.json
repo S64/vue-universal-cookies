@@ -1,0 +1,29 @@
+{
+  "name": "vue-universal-cookies",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@types/webpack": "^3.8.1",
+    "@types/webpack-merge": "^4.1.1",
+    "rimraf": "^2.6.2",
+    "ts-loader": "^3.2.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dts-bundle": "file://../webpack-dts-bundle",
+    "webpack-merge": "^4.1.1"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.ts",
+    "clean": "rimraf dist/ tmp/"
+  },
+  "dependencies": {
+    "@types/cookie": "^0.3.1",
+    "@types/express": "^4.11.0",
+    "@types/js-cookie": "^2.1.0",
+    "cookie": "^0.3.1",
+    "express": "^4.11.0",
+    "js-cookie": "^2.1.0",
+    "vue": "^2.5.13"
+  }
+}
