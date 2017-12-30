@@ -18,6 +18,11 @@ const configuration: webpack.Configuration =  {
     filename: 'index.js',
     libraryTarget: 'commonjs',
   },
+  resolve: {
+    extensions: [
+      '.ts'
+    ]
+  },
   node: {
     __dirname: false,
     __filename: false,
