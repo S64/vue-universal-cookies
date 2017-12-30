@@ -1,0 +1,18 @@
+{
+  "name": "webpack-dts-bundle",
+  "version": "0.0.1-SNAPSHOT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/dts-bundle": "^0.0.30",
+    "dts-bundle": "^0.7.3",
+    "webpack": "^3.8.1",
+    "@types/webpack": "^3.8.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
