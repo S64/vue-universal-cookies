@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import * as index from '../index';
+import * as index from '../src/index';
 
 declare module 'vue/types/vue' {
 
