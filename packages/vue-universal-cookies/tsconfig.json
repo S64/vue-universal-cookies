@@ -3,13 +3,16 @@
     "target": "es5",
     "module": "commonjs",
     "strict": true,
+    "outDir": "dist",
     "declaration": true,
-    "declarationDir": "../tmp/typings",
     "typeRoots": [
-      "node_modules/@types",
-      "src/typings"
+      "node_modules/@types"
     ]
   },
+  "files": [
+    "src/index.ts",
+    "src/typings/vue.d.ts"
+  ],
   "exclude": [
     "webpack.config.ts"
   ]

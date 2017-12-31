@@ -16,7 +16,7 @@ declare module 'vue/types/vue' {
 
 declare module 'vue/types/options' {
 
-  interface ComponentOptions<V extends Vue> {
+  interface ComponentOptions<V extends Vue, Data=DefaultData<V>, Methods=DefaultMethods<V>, Computed=DefaultComputed, PropsDef=PropsDefinition<DefaultProps>> {
     cookies?: index.default.Options;
     // _vueUniversalCookies?: index.default.Options;
   }

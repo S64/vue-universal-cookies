@@ -1,4 +1,4 @@
-// import Vue from 'vue';
+import Vue from 'vue';
 import { ComponentOptions } from 'vue/types/options';
 import { VueConstructor } from 'vue/types/vue';
 import VueUniversalCookies from '../index';
