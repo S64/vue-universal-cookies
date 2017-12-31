@@ -14,15 +14,16 @@ export class BrowserHandler implements CookieHandler {
   }
 
   set(key: string, value: string, options: UniversalCookies.Options) {
+    const filled = {...UniversalCookies.Options.DEFAULT, ...options};
     this.cookies.set(
       key,
       value,
       ({
-        expires: options.expires,
-        path: options.path,
-        domain: options.domain,
-        secure: options.secure,
-      } as JsCookies.CookieAttributes)
+        expires: filled.expires,
+        path: filled.path,
+        domain: filled.domain,
+        secure: filled.secure,
+      } as JsCookies.CookieAttributes),
     );
   }
 

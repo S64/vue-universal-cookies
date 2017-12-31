@@ -23,6 +23,8 @@ export class NodeHttpHandler implements CookieHandler {
   }
 
   set(key: string, value: string, options: UniversalCookies.Options): void {
+    const filled = {...UniversalCookies.Options.DEFAULT, ...options};
+
     const rawHeader = this.res.getHeader('Set-Cookie');
 
     let headers: string[];
@@ -42,10 +44,10 @@ export class NodeHttpHandler implements CookieHandler {
         key,
         value,
         ({
-          expires: options.expires,
-          path: options.path,
-          domain: options.domain,
-          secure: options.secure,
+          expires: filled.expires,
+          path: filled.path,
+          domain: filled.domain,
+          secure: filled.secure,
         } as NodeCookie.CookieSerializeOptions)
       )
     ]));

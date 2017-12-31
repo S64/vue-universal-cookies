@@ -20,14 +20,15 @@ export class ExpressHandler implements CookieHandler {
   }
 
   set(key: string, value: string, options: UniversalCookies.Options): void {
+    const filled = {...UniversalCookies.Options.DEFAULT, ...options};
     this.res.cookie(
       key,
       value,
       ({
-        expires: options.expires,
-        path: options.path,
-        domain: options.domain,
-        secure: options.secure,
+        expires: filled.expires,
+        path: filled.path,
+        domain: filled.domain,
+        secure: filled.secure,
       } as express.CookieOptions)
     );
   }
