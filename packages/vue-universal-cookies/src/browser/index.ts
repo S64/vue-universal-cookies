@@ -5,7 +5,7 @@ export class BrowserHandler implements CookieHandler {
 
   private cookies: typeof JsCookies;
 
-  constructor(cookies: typeof JsCookies = JsCookies.noConflict()) {
+  constructor(cookies: typeof JsCookies = JsCookies) {
     this.cookies = cookies;
   }
 
