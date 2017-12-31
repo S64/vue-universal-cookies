@@ -1,6 +1,7 @@
 {
   "name": "nuxt-universal-cookies",
   "description": "Cookies plugin for Nuxt.js",
+  "version": "0.0.2",
   "author": "Shuma Yoshioka <s64.stdio@gmail.com> (https://github.com/S64/)",
   "bugs": {
     "url": "https://github.com/S64/vue-universal-cookies/issues"
@@ -30,6 +31,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/S64/vue-universal-cookies.git"
-  },
-  "version": "0.0.1"
+  }
 }
