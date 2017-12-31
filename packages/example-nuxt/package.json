@@ -1,8 +1,7 @@
 {
   "name": "example-nuxt",
   "dependencies": {
-    "nuxt-universal-cookies": "file://../nuxt-universal-cookies",
-    "vue-universal-cookies": "file://../vue-universal-cookies"
+    "nuxt-universal-cookies": "0.0.3"
   },
   "devDependencies": {
     "nuxt": "^1.0.0-rc11",
@@ -12,6 +11,5 @@
   "scripts": {
     "dev": "nuxt",
     "clean": "rimraf .nuxt/"
-  },
-  "version": "0.0.1"
+  }
 }
