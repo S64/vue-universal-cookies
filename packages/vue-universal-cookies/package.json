@@ -3,6 +3,9 @@
   "description": "Cookies plugin for Browser, Express, http on Vue.js",
   "version": "0.0.1",
   "author": "Shuma Yoshioka <s64.stdio@gmail.com> (https://github.com/S64/)",
+  "bugs": {
+    "url": "https://github.com/S64/vue-universal-cookies/issues"
+  },
   "dependencies": {
     "@types/cookie": "^0.3.1",
     "@types/express": "^4.11.0",
