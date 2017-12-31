@@ -30,5 +30,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/S64/vue-universal-cookies.git"
-  }
+  },
+  "version": "0.0.1"
 }

@@ -39,5 +39,6 @@
     "build": "tsc",
     "clean": "rimraf dist/ tmp/"
   },
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "version": "0.0.1"
 }

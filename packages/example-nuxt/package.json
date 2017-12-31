@@ -12,5 +12,6 @@
   "scripts": {
     "dev": "nuxt",
     "clean": "rimraf .nuxt/"
-  }
+  },
+  "version": "0.0.1"
 }
