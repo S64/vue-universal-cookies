@@ -30,6 +30,7 @@
     "vue",
     "vue.js"
   ],
+  "license": "Apache-2.0",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
