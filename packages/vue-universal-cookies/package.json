@@ -21,6 +21,7 @@
     "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
   },
+  "homepage": "https://github.com/S64/vue-universal-cookies",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
