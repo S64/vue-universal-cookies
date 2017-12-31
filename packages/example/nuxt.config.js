@@ -1,13 +1,10 @@
 module.exports = {
-  build: {
-    vendor: [
-      'nuxt-universal-cookies',
-    ],
-  },
-  plugins: [
+  modules: [
     {
-      src: '~/plugins/universal-cookies.js',
-      ssr: true,
-    },
+      src: 'nuxt-universal-cookies',
+      options: {
+
+      }
+    }
   ],
 };

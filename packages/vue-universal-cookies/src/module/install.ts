@@ -13,9 +13,7 @@ export function install(Vue: VueConstructor, options?: never) {
     _Vue = Vue;
   }
 
-  const proto = Object.getPrototypeOf(Vue);
-
-  Object.defineProperty(proto, '$cookies', {
+  Object.defineProperty(Vue.prototype, '$cookies', {
     get() { return this._vueUniversalCookies; }
   });
 

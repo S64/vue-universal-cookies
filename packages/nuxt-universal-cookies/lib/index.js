@@ -1,6 +1,6 @@
-import * as path from 'path';
+const path = require('path');
 
-moudle.exports = function (moduleOptions) {
+module.exports = function (moduleOptions, resolve) {
   const defaults = {};
   const options = Object.assign({}, defaults, moduleOptions, this.options.universalCookies);
 
@@ -10,5 +10,7 @@ moudle.exports = function (moduleOptions) {
     options
   });
 
-  this.options.build.vendor.push('nuxt-universal-cookies');
+  this.addVendor('vue-universal-cookies');
+
+  resolve();
 }
