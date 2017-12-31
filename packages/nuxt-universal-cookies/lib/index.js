@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = function (moduleOptions, resolve) {
   const defaults = {};
-  const options = Object.assign({}, defaults, moduleOptions, this.options.universalCookies);
+  const options = Object.assign({}, defaults, moduleOptions, this.options);
 
   this.addPlugin({
     src: path.resolve(__dirname, './templates/universal-cookies.plugin.ejs.js'),
