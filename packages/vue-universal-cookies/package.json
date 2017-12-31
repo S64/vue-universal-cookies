@@ -1,5 +1,6 @@
 {
   "name": "vue-universal-cookies",
+  "description": "Cookies plugin for Browser, Express, http on Vue.js",
   "version": "0.0.1",
   "dependencies": {
     "@types/cookie": "^0.3.1",
