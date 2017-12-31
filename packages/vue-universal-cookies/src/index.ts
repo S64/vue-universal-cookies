@@ -37,7 +37,7 @@ namespace VueUniversalCookies {
 
 VueUniversalCookies.install = install;
 
-if(typeof window !== 'undefined' && (window as any).Vue) {
+if(typeof window !== 'undefined' && typeof (window as any).Vue !== 'undefined') {
   const instanceOfVue: VueConstructor = (window as any).Vue;
   instanceOfVue.use(VueUniversalCookies);
 }
