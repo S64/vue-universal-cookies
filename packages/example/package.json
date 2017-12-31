@@ -1,6 +1,5 @@
 {
   "name": "example",
-  "private": true,
   "dependencies": {
     "nuxt-universal-cookies": "file://../nuxt-universal-cookies",
     "vue-universal-cookies": "file://../vue-universal-cookies"
@@ -8,6 +7,7 @@
   "devDependencies": {
     "nuxt": "^1.0.0-rc11"
   },
+  "private": true,
   "scripts": {
     "dev": "nuxt"
   }
