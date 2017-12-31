@@ -3,15 +3,10 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "devDependencies": {
-    "@types/webpack": "^3.8.1",
-    "@types/webpack-merge": "^4.1.1",
     "rimraf": "^2.6.2",
     "ts-loader": "^3.2.0",
     "ts-node": "^4.1.0",
-    "typescript": "^2.6.2",
-    "webpack": "^3.8.1",
-    "webpack-dts-bundle": "file://../webpack-dts-bundle",
-    "webpack-merge": "^4.1.1"
+    "typescript": "^2.6.2"
   },
   "scripts": {
     "build": "tsc",
