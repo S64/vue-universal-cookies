@@ -20,12 +20,14 @@ export namespace UniversalCookies {
   }
 
   export namespace Options {
+
     export const DEFAULT: UniversalCookies.Options = {
       expires: undefined,
       path: undefined,
       domain: undefined,
       secure: undefined,
     };
+
   }
 
 }

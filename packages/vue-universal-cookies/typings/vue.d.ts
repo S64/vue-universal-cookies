@@ -8,9 +8,6 @@ declare module 'vue/types/vue' {
     _vueUniversalCookies?: index.default;
   }
 
-  interface VueConstructor<V extends Vue = Vue> {
-  }
-
 }
 
 declare module 'vue/types/options' {
