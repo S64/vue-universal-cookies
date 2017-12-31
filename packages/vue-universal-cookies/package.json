@@ -14,7 +14,7 @@
     "webpack-merge": "^4.1.1"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.ts",
+    "build": "webpack --config webpack.config.ts --verbose",
     "clean": "rimraf dist/ tmp/"
   },
   "dependencies": {

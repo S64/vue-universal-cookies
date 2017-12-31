@@ -16,11 +16,16 @@ const configuration: webpack.Configuration =  {
   output: {
     path: distDir,
     filename: 'index.js',
-    libraryTarget: 'commonjs',
+    library: 'vue-universal-cookies',
+    libraryTarget: 'umd',
   },
   resolve: {
     extensions: [
+      '.js',
       '.ts'
+    ],
+    modules: [
+      'node_modules'
     ]
   },
   node: {
