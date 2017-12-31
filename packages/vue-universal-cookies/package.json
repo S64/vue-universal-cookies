@@ -31,7 +31,7 @@
     "vue.js"
   ],
   "license": "Apache-2.0",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/S64/vue-universal-cookies.git"
@@ -40,5 +40,5 @@
     "build": "tsc",
     "clean": "rimraf dist/ tmp/"
   },
-  "types": "./dist/index.d.ts"
+  "types": "dist/index.d.ts"
 }
