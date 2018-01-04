@@ -37,8 +37,13 @@ class VueUniversalCookies implements UniversalCookies {
   get(key: string): string | undefined {
     return this.handler.get(key);
   }
+
   set(key: string, value: string, options: UniversalCookies.Options): void {
     return this.handler.set(key, value, options);
+  }
+
+  remove(key: string, options: UniversalCookies.Options): void {
+    return this.handler.remove(key, options);
   }
 
 }
