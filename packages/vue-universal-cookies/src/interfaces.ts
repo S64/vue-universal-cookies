@@ -24,6 +24,8 @@ export interface UniversalCookies {
 
   set(key: string, value: string, options: UniversalCookies.Options): void;
 
+  remove(key: string, options: UniversalCookies.Options): void;
+
 }
 
 export namespace UniversalCookies {

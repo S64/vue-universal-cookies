@@ -69,4 +69,11 @@ export class NodeHttpHandler implements CookieHandler {
     ]));
   }
 
+  remove(key: string, options: UniversalCookies.Options): void {
+    this.set(key, '', {
+      expires: new Date(0, 0),
+      ...options,
+    });
+  }
+
 }

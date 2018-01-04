@@ -49,4 +49,17 @@ export class ExpressHandler implements CookieHandler {
     );
   }
 
+  remove(key: string, options: UniversalCookies.Options): void {
+    const filled = {...UniversalCookies.Options.DEFAULT, ...options};
+    this.res.clearCookie(
+      key,
+      ({
+        expires: filled.expires,
+        path: filled.path,
+        domain: filled.domain,
+        secure: filled.secure,
+      } as express.CookieOptions)
+    );
+  }
+
 }

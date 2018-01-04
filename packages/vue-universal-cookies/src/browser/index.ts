@@ -43,4 +43,17 @@ export class BrowserHandler implements CookieHandler {
     );
   }
 
+  remove(key: string, options: UniversalCookies.Options): void {
+    const filled = {...UniversalCookies.Options.DEFAULT, ...options};
+    this.cookies.remove(
+      key,
+      ({
+        expires: filled.expires,
+        path: filled.path,
+        domain: filled.domain,
+        secure: filled.secure,
+      } as JsCookies.CookieAttributes)
+    );
+  }
+
 }
