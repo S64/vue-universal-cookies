@@ -1,7 +1,7 @@
 {
   "name": "example-nuxt",
   "dependencies": {
-    "nuxt-universal-cookies": "0.0.3"
+    "nuxt-universal-cookies": "0.0.4"
   },
   "devDependencies": {
     "nuxt": "^1.0.0-rc11",
