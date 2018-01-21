@@ -16,7 +16,7 @@
 
 const path = require('path');
 
-module.exports = function (moduleOptions, resolve) {
+module.exports = function (moduleOptions) {
   const defaults = {};
   const options = Object.assign({}, defaults, moduleOptions);
 
@@ -27,6 +27,4 @@ module.exports = function (moduleOptions, resolve) {
   });
 
   this.addVendor('vue-universal-cookies');
-
-  resolve();
 }
