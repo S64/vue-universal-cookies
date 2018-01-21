@@ -7,7 +7,7 @@
     "url": "https://github.com/S64/vue-universal-cookies/issues"
   },
   "dependencies": {
-    "nuxt": "^1.0.0-rc11",
+    "nuxt": "^1.0.0",
     "vue-universal-cookies": "^0.0.4"
   },
   "files": [
