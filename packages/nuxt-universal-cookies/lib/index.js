@@ -22,8 +22,7 @@ module.exports = function (moduleOptions) {
 
   this.addPlugin({
     src: path.resolve(__dirname, './templates/universal-cookies.plugin.ejs.js'),
-    fileName: 'universal-cookies.plugin.js',
-    options
+    options: options
   });
 
   this.addVendor('vue-universal-cookies');
