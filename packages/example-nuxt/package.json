@@ -4,7 +4,7 @@
     "nuxt-universal-cookies": "0.0.4"
   },
   "devDependencies": {
-    "nuxt": "^1.0.0-rc11",
+    "nuxt": "^1.1.1",
     "rimraf": "^2.6.2"
   },
   "private": true,
