@@ -24,6 +24,6 @@ export default (context) => {
   Vue.use(VueUniversalCookies);
   const options = <%= JSON.stringify(options) %>;
   context.app.cookies = Object.assign({}, options, {
-    handler: context.isServer ? new NodeHttpHandler(context.req, context.res) : new BrowserHandler(),
+    handler: (!process.static && process.server) ? new NodeHttpHandler(context.req, context.res) : new BrowserHandler(),
   });
 };

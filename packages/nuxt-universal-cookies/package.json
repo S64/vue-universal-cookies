@@ -1,14 +1,14 @@
 {
   "name": "nuxt-universal-cookies",
   "description": "Cookies plugin for Nuxt.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Shuma Yoshioka <s64.stdio@gmail.com> (https://github.com/S64/)",
   "bugs": {
     "url": "https://github.com/S64/vue-universal-cookies/issues"
   },
   "dependencies": {
-    "nuxt": "^1.0.0-rc11",
-    "vue-universal-cookies": "^0.0.4"
+    "nuxt": "^1.0.0",
+    "vue-universal-cookies": "^0.0.5"
   },
   "files": [
     "README.md",
